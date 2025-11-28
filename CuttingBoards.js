@@ -56,6 +56,7 @@ function boardCutting(cost_y, cost_x) {
     return cost;
 }
 
+// Complete the 'boardCutting' function above.
 function main() {
     const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
 
